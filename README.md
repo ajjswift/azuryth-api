@@ -12,7 +12,7 @@ eg:
     https://api.azuryth.com/api/getImage?query=veldoria&size=1920x1080
 
 
-### /api/getImage
+## /api/getImage
 
 Returns one of our featured images, whilst allowing the user to query by town, area, or other landmark.
 
@@ -33,7 +33,7 @@ The `bypassCache` option should only be used if experiencing issues. It'll retur
 
 Not including any parameters will return a random cached hero image of size 1200x800.
 
-### /api/generate/npc
+## /api/generate/npc
 This API route generates a random NPC. It's used by our staff team to generate an NPC for the server with ease.
 
 
@@ -58,7 +58,7 @@ All parameters (excluding randomizeClass) simply allow you to force the value in
 
 randomizeClass ensures that the NPC will always have a class, else it only has a 10% chance to be assigned one. It defaults to false.
 
-### /api/generate/town
+## /api/generate/town
 Generates a random town. Used by our staff team to create new and random towns each time we need a new one.
 
 
@@ -74,7 +74,7 @@ Requires Authentication: `No`
 #### More Information
 The size parameter simply forces the value of the town population in the final result.
 
-### /api/generate/townName
+## /api/generate/townName
 A subset of `/api/generate/town`; returns only the town name.
 
 Required Method: `GET`
