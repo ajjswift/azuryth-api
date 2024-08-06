@@ -27,6 +27,16 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
+
+# Don't commit the image cache
+/cache/*
+
+# Don't commit zipped files
+*.zip
+
+# Don't commit code-workspace
+*.code-workspace
 
 # vercel
 .vercel
