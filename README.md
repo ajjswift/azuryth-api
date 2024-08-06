@@ -91,3 +91,6 @@ Requires Authentication: `No`
 
 Returns a random town name.
 
+
+
+Made with [ttrpgtools](https://www.npmjs.com/package/ttrpg-tools)
