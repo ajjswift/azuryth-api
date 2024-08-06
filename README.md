@@ -13,10 +13,10 @@
 No `''` marks should be used in any request.
 eg:
     
-    https://api.azuryth.com/api/getImage?query=veldoria&size=1920x1080
+    https://api.azuryth.com/api/image/get?query=veldoria&size=1920x1080
 
 
-## /api/getImage
+## /api/image/get
 
 Returns one of our featured images, whilst allowing the user to query by town, area, or other landmark.
 
@@ -36,6 +36,16 @@ If `sort` is not set, it'll return a random image that has the tag sent in query
 The `bypassCache` option should only be used if experiencing issues. It'll return images much much slower that with our cache layer. It's highly recommended to not include in the request.
 
 Not including any parameters will return a random cached hero image of size 1200x800.
+
+## /api/image/getTags
+
+Returns all of the current tags for features images that can be queries with `/api/image/get`
+
+Required Method: `GET`
+
+Accepted parameters: `None`
+
+Requires Authentication: `No`
 
 ## /api/generate/npc
 This API route generates a random NPC. It's used by our staff team to generate an NPC for the server with ease.
@@ -92,5 +102,16 @@ Requires Authentication: `No`
 Returns a random town name.
 
 
+## /api/generate/getRaces
+Returns all available races.
+
+Required Method: `GET`
+
+Accepted parameters: `None`
+
+Requires Authentication: `No`
+
+
+## Credits
 
 Made with [ttrpgtools](https://www.npmjs.com/package/ttrpg-tools)
