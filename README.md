@@ -4,7 +4,11 @@
 
 # This repository stores the [Azuryth](https://azuryth.com) Web API.
 
-It's constantly expanding, but currently includes a few routes.
+- It's constantly expanding, but currently includes a few routes.
+
+- Written with NextJS, as we have future plans to create a user interface for this API.
+
+***
 
 No `''` marks should be used in any request.
 eg:
