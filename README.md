@@ -39,7 +39,7 @@ Not including any parameters will return a random cached hero image of size 1200
 
 ## /api/image/getTags
 
-Returns all of the current tags for features images that can be queries with `/api/image/get`
+Returns all of the current tags for featured images that can be queried with `/api/image/get`
 
 Required Method: `GET`
 
